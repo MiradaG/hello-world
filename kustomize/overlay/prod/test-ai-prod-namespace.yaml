@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: test-ai-prod
+  labels:
+    environmentId: env_9166c01c-e361-4657-95d3-3258aabfb1b6
+    projectId: project_17bc77cc-ff26-4453-ba19-dcc15014359f
+    projectName: test-ai
+    environmentName: prod
+    organizationId: org_20c6c833-c6da-41ca-85b9-9573910c5b75
+    goldilocks.fairwinds.com/enabled: 'true'
