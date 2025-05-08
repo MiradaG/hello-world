@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: Combined API Specification
+  version: 1.0.0
+paths:
+  /:
+    get:
+      summary: Returns Hello World!
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            text/plain:
+              schema:
+                type: string
+              example: Hello World!
+components:
+  schemas: {}
